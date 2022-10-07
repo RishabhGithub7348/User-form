@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 
 
-const App = () => {
+export default () => {
     const [fullName, setFullName] = useState( {
       fname : '', 
       email : '',
@@ -81,4 +81,4 @@ const App = () => {
     );
       
 };
-export default App;
+

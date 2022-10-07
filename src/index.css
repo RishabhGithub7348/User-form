@@ -2,7 +2,7 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  background-color: rgb(181, 75, 181);
+  background-color: #1C6758;
 
 }
 h1{
@@ -11,13 +11,14 @@ h1{
   text-shadow: 0 2px 2px black;
 }
 input{
-  width: 200%;
+  width: 150%;
   padding: 10px 20px;
-  border: auto;
+  border: 2px solid black;
   outline: none;
   margin: 20px 0;
   text-align: center;
   background-color: white;
+  border-radius: 7px;
 }
 div{
   width: 100%;
@@ -29,11 +30,15 @@ div{
 }
 button{
   padding: 15px 20px;
-  background-color: #9b59b6;
+  background-color: #D6CDA4;
   color: white;
   border: 2px solid #ecf0f1;
   outline: none;
   border-radius: 5px;
   text-transform: uppercase;
   cursor: pointer;
+}
+button:hover{
+  background-color: #e1cb69;
+  color: #1C6758;
 }
